@@ -5,7 +5,7 @@ function Search({ onSearch }) {
   const [request, setRequest] = useState("");
 
   const handleSearch = () => {
-    onSearch(request); 
+    onSearch(request);
   };
 
   return (
@@ -21,7 +21,7 @@ function Search({ onSearch }) {
 }
 
 Search.propTypes = {
-  onSearch: PropTypes.func.isRequired,
+  onSearch: PropTypes.func,
 };
 
 export default Search;

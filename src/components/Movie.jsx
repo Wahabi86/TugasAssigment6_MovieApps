@@ -13,10 +13,9 @@ function Movie({ poster, title, year }) {
 }
 
 Movie.propTypes = {
-  poster: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  year: PropTypes.string.isRequired,
+  poster: PropTypes.string,
+  title: PropTypes.string,
+  year: PropTypes.string,
 };
-
 
 export default Movie;
